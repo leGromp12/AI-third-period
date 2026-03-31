@@ -18,8 +18,8 @@ for x1 in [0, 1]:
         print("S =", x1, "*", w1, "+", x2, "*", w2, "=", S)
 
         if S < 0.5:
-            print("Y = F(S) = 0 (оскільки S < 0.5)")
+            print("Y = F(S) = 0 (S < 0.5)")
         else:
-            print("Y = F(S) = 1 (оскільки S > 0.5)")
+            print("Y = F(S) = 1 (S > 0.5)")
 
         print()

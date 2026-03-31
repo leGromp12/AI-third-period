@@ -21,9 +21,9 @@ for x1, x2, x3 in data:
     print("S1 = -x1 - x3 + 1 =", S1)
 
     if S1 < 0.5:
-        print("Y1 = 0 (оскільки S < 0.5)")
+        print("Y1 = 0 (S < 0.5)")
     else:
-        print("Y1 = 1 (оскільки S >= 0.5)")
+        print("Y1 = 1 (S >= 0.5)")
 
     S2 = x1 + x2 + x3 - 2.5
     Y2 = activation(S2)
@@ -39,8 +39,8 @@ for x1, x2, x3 in data:
     print("S3 =", Y1, "+", Y2, "=", S3)
 
     if S3 < 0.5:
-        print("Y = 0 (оскільки S < 0.5)")
+        print("Y = 0 (S < 0.5)")
     else:
-        print("Y = 1 (оскільки S >= 0.5)")
+        print("Y = 1 (S >= 0.5)")
 
     print()
